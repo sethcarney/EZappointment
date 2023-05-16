@@ -1,0 +1,56 @@
+.days-label {
+    display: inline-block;
+    width: 140px;
+    text-align: left;
+}
+
+.time-input {
+    display: inline-block;
+    width: 140px;
+}
+
+.time-input-dash {
+    color: #252733;
+    margin: 5px;
+}
+
+.form-check {
+    display: flex;
+    justify-content: flex-start;
+}
+
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none !important;
+}
+
+.duration {
+    margin-top: 15px;
+}
+
+.weeks-input {
+    width: 80px;
+}
+
+.numWeeks {
+    margin-top: 25px;
+}
+
+#availablity {
+    width: 100%;
+    height: 100vh;
+    color: #252733;
+}
+
+.availablity-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.availablity-form-container {
+    margin-left: 300px;
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+}

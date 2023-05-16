@@ -1,0 +1,91 @@
+#appointments {
+    width: 100%;
+    height: 100vh;
+}
+
+.calendar-container {
+    width: 100%;
+    height: 850px;
+    margin-top: 50px;
+}
+
+.edit-appointment {
+    display: flex;
+}
+
+.appointment-info-container {
+    margin-top: 0px;
+    height: 600px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.appointment-info-header {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 18px;
+}
+
+.appointment-info {
+    margin-bottom: 20px;
+}
+
+.details-header {
+    font-size: 18px;
+    font-weight: 700;
+    color: #252733;
+    margin-right: 0px;
+}
+
+.details-info {
+    font-size: 18px;
+    font-weight: 500;
+    color: #252733;
+}
+
+.cancel-appointment-button {
+    width: 17%;
+    color: white;
+    background-color: #e17a71;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+.cancel-appointment-button:hover {
+    background-color: #d5695f;
+}
+
+.edit-appointment-button {
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    color: #252733;
+    margin-left: 7px;
+}
+
+.location-container {
+    font-size: 18px;
+    margin-top: 0px;
+    height: 100px;
+}
+
+.notes-container {
+    font-size: 18px;
+    margin-top: 0px;
+    height: 150px;
+}
+
+.location-info, .notes-info {
+    width: 200px;
+    word-wrap: break-word;
+}
+
+.input-field {
+    border: solid 1px #ced4da;
+    border-radius: 10px;
+    color: #252733;
+    width: 50%;
+}

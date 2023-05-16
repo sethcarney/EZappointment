@@ -1,0 +1,5 @@
+flask 
+bcrypt
+datetime
+flask_cors
+flask_jwt_extended

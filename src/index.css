@@ -1,0 +1,38 @@
+body {
+  /* margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  font-family: 'Cera Pro', 'Roboto', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "Cera Pro";
+  src: url('./fonts/Cera-Pro-Light.ttf') format('truetype');
+  font-weight: 300;
+} 
+
+@font-face {
+  font-family: "Cera Pro";
+  src: url('./fonts/Cera-Pro-Black.ttf') format('truetype');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Cera Pro";
+  src: url('./fonts/Cera-Pro-Bold.ttf') format('truetype');
+  font-weight: 700;
+} 
+
+@font-face {
+  font-family: "Cera Pro";
+  src: url('./fonts/Cera-Pro-Medium.ttf') format('truetype');
+  font-weight: 500;
+}

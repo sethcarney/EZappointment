@@ -1,0 +1,58 @@
+/* #home {
+    width: 100%;
+    height: 100%;
+} */
+
+.today-title {
+    font-weight: 900;
+}
+
+.date {
+    font-weight: 500;
+    color: #65758a;
+}
+
+.view-appointments-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upcoming-appointments-title {
+    font-weight: 700;
+}
+
+.view-all-link {
+    color: #65758a;
+    text-decoration: none;
+}
+
+.view-all-link:hover {
+    color: #98a4b8;
+}
+
+.box {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 20px;
+    height: 130px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
+}
+
+.appointment-name {
+    font-weight: 700;
+    font-size: 26px;
+    color: #507742;
+    margin-left: 15px;
+    margin-top: 19px;
+    margin-bottom: 0px;
+}
+
+.appointment-time {
+    font-weight: 500;
+    font-size: 16px;
+    color: #65758a;
+    margin-left: 15px;
+}
