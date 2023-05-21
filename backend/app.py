@@ -6,7 +6,7 @@ from datetime import datetime
 from datetime import timedelta
 from datetime import timezone
 from datetime import date
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 from flask_jwt_extended import create_access_token
 from flask_jwt_extended import unset_jwt_cookies
 from flask_jwt_extended import get_jwt
@@ -16,7 +16,7 @@ from flask_jwt_extended import JWTManager
 from helpers import *
 # Set up the flask constructor with the module name as the parameter
 app = Flask(__name__)
-CORS(app)
+cors = CORS(app)
 
 app.config['CORS_HEADERS'] = 'Content-Type'
 
