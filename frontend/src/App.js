@@ -26,6 +26,8 @@ function App() {
         "Authorization": "Bearer " + token
       }
     }
+    if(token !== null && token !== "" && token !== undefined)
+    { 
     fetch("http://127.0.0.1:5000/getUserCredentials", options)
     .then(response => {
       if (response.status === 200)
@@ -43,6 +45,7 @@ function App() {
       }
     })
     .catch(error => console.log(error))
+  }
   }
 
   return (

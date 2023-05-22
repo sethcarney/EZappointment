@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
 
-npm start &
-
-cd backend && python3 app.py &
+cd frontend && npm start &
+cd backend && python app.py &
